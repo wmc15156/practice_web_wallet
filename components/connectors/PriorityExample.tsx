@@ -16,7 +16,7 @@ function getName(connector: any) {
   if (connector instanceof Network) return 'Network'
   return 'Unknown'
 }
-
+console.log(23123123)
 const { usePriorityConnector } = getPriorityConnector(
   [metaMask, metaMaskHooks],
   [walletConnect, walletConnectHooks],
