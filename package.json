@@ -2,7 +2,8 @@
   "private": true,
   "name": "example",
   "scripts": {
-    "start": "next dev"
+    "start": "next dev",
+    "build": "next build"
   },
   "dependencies": {
     "@ethersproject/bignumber": "^5.4.2",
