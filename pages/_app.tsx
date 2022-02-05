@@ -1,6 +1,7 @@
 // import App from 'next/app'
 
 function MyApp({ Component, pageProps }) {
+    console.log(123);
   return (
     <div style={{ background: '#f8f9fa', height: '100vh' }}>
       <Component {...pageProps} />

@@ -9,7 +9,7 @@ import { hooks as networkHooks, network } from '../../connectors/network'
 import { hooks as walletConnectHooks, walletConnect } from '../../connectors/walletConnect'
 import { hooks as walletLinkHooks, walletLink } from '../../connectors/walletLink'
 
-function getName(connector: Connector) {
+function getName(connector: any) {
   if (connector instanceof MetaMask) return 'MetaMask'
   if (connector instanceof WalletConnect) return 'WalletConnect'
   if (connector instanceof WalletLink) return 'WalletLink'
