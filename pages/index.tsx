@@ -1,9 +1,9 @@
 import dynamic from 'next/dynamic';
 import { useEffect, useState } from 'react';
 
-const PriorityExample = dynamic(() => import('../components/connectors/PriorityExample'), {
-  ssr: false,
-});
+// const PriorityExample = dynamic(() => import('../components/connectors/PriorityExample'), {
+//   ssr: false,
+// });
 
 const MetaMaskCard = dynamic(() => import('../components/connectors/MetaMaskCard'), { ssr: false });
 const WalletConnectCard = dynamic(() => import('../components/connectors/WalletConnectCard'), {
