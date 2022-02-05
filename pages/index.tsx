@@ -44,7 +44,7 @@ export default function Home() {
 
   return (
     <div>
-      <PriorityExample />
+      {/*<PriorityExample />*/}
       <div style={{ fontFamily: 'sans-serif' }}>
         <MetaMaskCard />
         {/*<WalletConnectCard />*/}
